@@ -8,7 +8,7 @@ I would like to thank Chris Deotte for his wonderful kernel .This gave me intuti
 
 ### Model Approach :
 
-a)Pre-trained-Model: (TFRobertaQA model was not yet released)
+a) Pre-trained-Model: (TFRobertaQA model was not yet released)
 
 1. We use a pretrained-Roberta-base-model and upon that we add a custom question answer head layer (TFRobertaQA model was not yet released).
 2. First tokens are input into bert_model and we use BERT's first output, i.e. x[0] below. These are embeddings of all input tokens and have shape (batch_size, MAX_LEN, 768).
