@@ -1,4 +1,4 @@
-# Twitter Sentiment Extraction using Custom Roberta model Transformer Model
+# Twitter Sentiment Extraction using Custom Roberta Transformer Model
 
 ### Problem Statement: Extract support phrases for sentiment labels
 
