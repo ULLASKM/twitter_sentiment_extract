@@ -17,3 +17,10 @@ a) Pre-trained-Model: (TFRobertaQA model was not yet released)
 
 b) Loading Pre-trained model weights :
 By using 5 folds Pretrained model weights and with leakyRelu layer on it we predict start and end indices of selected_text.
+
+![Alt text](https://github.com/ULLASKM/twitter_sentiment_extract/blob/main/tokenization-1.png "Tokenization")
+![Alt text](https://github.com/ULLASKM/twitter_sentiment_extract/blob/main/tokenization-2.png "Tokenization")
+
+## Model design:
+
+![Alt text](https://github.com/ULLASKM/twitter_sentiment_extract/blob/main//tf_layer.jpg "Model")
